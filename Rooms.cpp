@@ -10,7 +10,7 @@ int Rooms::idCount = 0;
  Rooms
  {
     string colour;
-    vector<string> rooms;
+    vector<string> Rooms;
     int ID;
     Rooms()
     {}
@@ -29,9 +29,9 @@ int Rooms::idCount = 0;
     void printRooms()
     {
         cout << colour << " ";
-        for (int i = 0; i < rooms.size(); ++i)
+        for (int i = 0; i < Rooms.size(); ++i)
         {
-            cout << rooms[i]<<" ";
+            cout << Rooms[i]<<" ";
         }
 
         cout << endl;
