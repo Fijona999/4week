@@ -114,12 +114,6 @@ int Rooms::idCount = 0;
     return os;
     }
     
-    bool Rooms(string colour){
-     if(colour>=0){
-        return true;
-      }else{
-        return false;
- }
-}
+
     
 };
